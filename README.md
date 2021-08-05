@@ -3,9 +3,10 @@ An Instagram Likes❤ Bot🕹.
 It automatically logs into Insta, searches for your prefered _Hashtag_, likes the most recent posts so as to get you Followers🎊 - _PROBABLY_
 
 
-> _**NOTE**_
+> **NOTE**
 > 
-> IGBot does **NOT** gurantee you followers and may therefore cause dissapointment. The essence of the Bot is purely educational
+> IGBot does **NOT** gurantee you followers and may therefore cause dissapointment.
+>The essence of the Bot is purely educational
 
 
 ## Languages and Technologies 🏗
