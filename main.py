@@ -10,7 +10,7 @@ uname = input('Enter Instagram Username: ')
 pwd = input('Enter Instagram Password: ')
 search_term = input('Enter Hashtag: ')
 
-print('\n Processing.......')
+print('\nProcessing.......')
 
 driver = webdriver.Firefox()
 driver.get('https://www.instagram.com/')
