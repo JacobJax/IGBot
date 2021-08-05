@@ -92,25 +92,29 @@ next_btn = driver.find_element(By.CSS_SELECTOR, next_selector)
 close_btn = driver.find_element(By.CSS_SELECTOR, close_selector)
 
 while True:
-    for i in range(4):
-        driver.implicitly_wait(10)
-        like_btn.click()
-        print('Liked ❤')
+    try:
+        for i in range(4):
+            driver.implicitly_wait(10)
+            like_btn.click()
+            print('Liked ❤')
+
+            driver.implicitly_wait(10)
+            next_btn.click()
+
+            like_btn = driver.find_element(By.XPATH, like_xpath)
 
         driver.implicitly_wait(10)
-        next_btn.click()
+        close_btn.click()
 
-        like_btn = driver.find_element(By.XPATH, like_xpath)
+        driver.refresh()
+        time.sleep(random.randint(3, 5))
 
-    driver.implicitly_wait(10)
-    close_btn.click()
+        driver.find_elements_by_xpath(recent_div_xpath2)[0].click()
 
-    driver.refresh()
-    time.sleep(random.randint(3, 5))
+        like_btn = driver.find_element(By.XPATH, like_xpath2)
+        next_btn = driver.find_element(By.XPATH, next_xpath)
+        close_btn = driver.find_element(By.XPATH, close_xpath)
 
-    driver.find_elements_by_xpath(recent_div_xpath2)[0].click()
-
-    like_btn = driver.find_element(By.XPATH, like_xpath2)
-    next_btn = driver.find_element(By.XPATH, next_xpath)
-    close_btn = driver.find_element(By.XPATH, close_xpath)
-
+    except Exception as e:
+        print(f'Umbwakni 👎\n{e}')
+        driver.quit()
