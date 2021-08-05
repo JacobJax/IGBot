@@ -1634,3 +1634,60 @@ JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/8053b
 JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/1b8d4ebb6709.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
 JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/8053b5620752.js, line 44: OZ_NETWORK: Network failure.
 JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/ee27f63d047c.js, line 33: Error: Got unexpected null or undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628148671150	Marionette	INFO	Stopped listening on port 2922
+1628170891322	geckodriver	INFO	Listening on 127.0.0.1:8729
+1628170894421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofilekGkTc0"
+1628170901099	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 1372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofilekGkTc0\\search.json.mozlz4", (void 0)))
+[Parent 1372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1628170919133	Marionette	INFO	Listening on port 8738
+1628170919557	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x810009,name=PServiceWorkerContainer::Reply_GetReady) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x58000D,name=PHttpBackgroundChannel::Msg___delete__) Channel error: cannot send/recv
+
+1628171099423	Marionette	INFO	Stopped listening on port 8738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628171130611	geckodriver	INFO	Listening on 127.0.0.1:8841
+1628171133741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofileDlQPht"
+1628171134921	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofileDlQPht\\search.json.mozlz4", (void 0)))
+1628171138706	Marionette	INFO	Listening on port 8849
+1628171139074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628171320892	Marionette	INFO	Stopped listening on port 8849
+8171315611	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofile3Y8H4S"
+1628171316922	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofile3Y8H4S\\search.json.mozlz4", (void 0)))
+1628171322150	Marionette	INFO	Listening on port 2230
+1628171322576	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/, line 56: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/ee27f63d047c.js, line 339: TypeError: this.props is undefined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA90006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1628171437363	Marionette	INFO	Stopped listening on port 2230
+1628171457708	geckodriver	INFO	Listening on 127.0.0.1:2351
+1628171460739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofile3hY8hn"
+1628171461477	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Antony\\AppData\\Local\\Temp\\rust_mozprofile3hY8hn\\search.json.mozlz4", (void 0)))
+1628171465261	Marionette	INFO	Listening on port 2361
+1628171465564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/ee27f63d047c.js, line 33: Error: Got unexpected null or undefined
